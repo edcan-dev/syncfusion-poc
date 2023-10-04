@@ -8,14 +8,14 @@ ej.base.registerLicense(key)
     }, */
     zoomSettings:{
         enable:false,
-        zoomFactor:11
+        zoomFactor:1
     },
     centerPosition: {
-        latitude: 25.54244147012483,
+        latitude: 24.54244147012483,
         longitude: -100.62646484375
     },
    layers: [{
-        shapeData: world_map,
+        shapeData: mexico_map,
         dataSource: [
             {  "Country": "Mexico", "Mexico": "true"}
         ],
